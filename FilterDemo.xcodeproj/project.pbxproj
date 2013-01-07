@@ -18,6 +18,8 @@
 		4DD74F85169A1D8700C2C018 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD74F84169A1D8700C2C018 /* Default-568h@2x.png */; };
 		4DD74F88169A1D8700C2C018 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD74F86169A1D8700C2C018 /* MainStoryboard.storyboard */; };
 		4DD74F8B169A1D8700C2C018 /* MHPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD74F8A169A1D8700C2C018 /* MHPViewController.m */; };
+		4DD74F92169A202A00C2C018 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD74F91169A202A00C2C018 /* CoreImage.framework */; };
+		4DD74F94169A20F000C2C018 /* sourceImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD74F93169A20EF00C2C018 /* sourceImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		4DD74F87169A1D8700C2C018 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		4DD74F89169A1D8700C2C018 /* MHPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHPViewController.h; sourceTree = "<group>"; };
 		4DD74F8A169A1D8700C2C018 /* MHPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHPViewController.m; sourceTree = "<group>"; };
+		4DD74F91169A202A00C2C018 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		4DD74F93169A20EF00C2C018 /* sourceImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sourceImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DD74F92169A202A00C2C018 /* CoreImage.framework in Frameworks */,
 				4DD74F6F169A1D8700C2C018 /* UIKit.framework in Frameworks */,
 				4DD74F71169A1D8700C2C018 /* Foundation.framework in Frameworks */,
 				4DD74F73169A1D8700C2C018 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +78,7 @@
 		4DD74F6D169A1D8700C2C018 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4DD74F91169A202A00C2C018 /* CoreImage.framework */,
 				4DD74F6E169A1D8700C2C018 /* UIKit.framework */,
 				4DD74F70169A1D8700C2C018 /* Foundation.framework */,
 				4DD74F72169A1D8700C2C018 /* CoreGraphics.framework */,
@@ -103,6 +109,7 @@
 				4DD74F80169A1D8700C2C018 /* Default.png */,
 				4DD74F82169A1D8700C2C018 /* Default@2x.png */,
 				4DD74F84169A1D8700C2C018 /* Default-568h@2x.png */,
+				4DD74F93169A20EF00C2C018 /* sourceImage.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -164,6 +171,7 @@
 				4DD74F83169A1D8700C2C018 /* Default@2x.png in Resources */,
 				4DD74F85169A1D8700C2C018 /* Default-568h@2x.png in Resources */,
 				4DD74F88169A1D8700C2C018 /* MainStoryboard.storyboard in Resources */,
+				4DD74F94169A20F000C2C018 /* sourceImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
